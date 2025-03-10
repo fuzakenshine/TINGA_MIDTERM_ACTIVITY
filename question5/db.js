@@ -1,7 +1,7 @@
 const { Sequelize } = require('sequelize');
 
 // Create a Sequelize instance and connect to the MySQL database
-const sequelize = new Sequelize('activity', 'johnray', 'john09125990132', {
+const sequelize = new Sequelize('node-mysql-crud-api', 'root', 'john09125990132@ray', {
   host: 'localhost',
   dialect: 'mysql',
 });

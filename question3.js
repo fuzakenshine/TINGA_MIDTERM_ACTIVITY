@@ -1,3 +1,5 @@
+//Create a simple Express.js server that listens on port 3000.
+
 var express = require('express');
 var app = express();
 
